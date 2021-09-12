@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.carousel__item {
+  position: relative;
+}
+
+.carousel__item::before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  content: ' ';
+}
+
+.images {
+  width: 100%;
+}
+
+.carousel__cap {
+  position: absolute;
+  top: 18rem;
+  z-index: 1;
+}
+
+.carousel__cap h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 3.5rem;
+  letter-spacing: 1rem;
+}
+
+.carousel__cap h4 div {
+  width: 50px;
+  border: 2px solid red;
+}
+
+.carousel__cap h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 1rem;
+}
+
+.carousel__cap p {
+  letter-spacing: 0.5rem;
+}
+/*# sourceMappingURL=Header.css.map */

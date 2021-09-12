@@ -1,0 +1,54 @@
+@import "./resets";
+@import "./variables";
+
+.check-avaliable-container{
+    padding: 3rem 0rem;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    h3{
+        padding-bottom: 1rem;
+    }
+}
+.check-avaliable-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    label{
+        font-size: 1rem;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+}
+.check-select{
+    padding: 15px;
+    
+    select{
+        padding: 10px;
+        border-style: none;
+    }
+}
+.check-input{
+    padding: 15px;
+
+    input{
+        padding: 10px;
+        border-style: none;
+    }
+}
+.check-submit{
+    padding-top: 1.8rem;
+
+
+    .submit-now{
+        padding: 10px;
+        background-color: rgb(255, 115, 0);
+        color: white;
+        border-style: none;
+
+    }
+}

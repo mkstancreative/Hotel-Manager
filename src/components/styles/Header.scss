@@ -1,0 +1,46 @@
+@import "./resets";
+@import "./variables";
+
+
+.carousel__item{
+    position: relative;
+
+    &::before{
+    position:absolute;
+    display:block;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.5);
+    content: ' ' ;
+    }
+}
+.images{
+    width: 100%;
+    
+}
+.carousel__cap{
+    position: absolute;
+    top: 18rem;
+    z-index: 1;
+    h4{
+        font-family: $fontFamily;
+        font-weight: 100;
+        font-size: 3.5rem;
+        letter-spacing: 1rem;
+
+        div{
+            width: 50px;
+            border: 2px solid red;
+
+        }
+    }
+    h3{
+        font-size: 3rem;
+        font-weight: bolder;
+        letter-spacing: 1rem;
+    }
+    p{
+        letter-spacing: 0.5rem;
+    }
+
+}

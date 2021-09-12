@@ -1,0 +1,85 @@
+@import "./resets";
+@import "./variables";
+
+
+.form-container{
+    width: 1000px;
+}
+.form{
+    width: 90%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2rem;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+
+    .form-header{
+        width: 80%;
+        background: white;
+
+        h1{
+        font-size: 1.2rem;
+        font-family: $fontFamily;
+        color: black;
+        text-align: center;
+        padding: 2rem;
+        font-weight: bolder;
+
+        }
+    }
+    h2{
+        text-align: center;
+    }
+
+}
+
+.form-inputs{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+
+    .form-label{
+        font-size: 1rem;
+        margin-bottom: 6px;
+        display: inline-block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-weight: bolder;
+    }
+
+    .form-input{
+        padding: 10px;
+        display: block;
+        width: 100%;
+        outline: none;
+    }
+
+    p{
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        color: red;
+    }
+}
+
+.form-input-btn{
+    padding: 10px;
+    margin: 12px;
+    border-style: none;
+    outline: none;
+    width: 50%;
+    color: white;
+    background: linear-gradient(90deg, rgb(255, 115, 0) 0%, rgb(255, 95, 2) 100%)
+}
+.Message{
+    font-weight: bolder;
+
+    .next-page{
+        color: rgb(255, 95, 2) ;
+    }
+}

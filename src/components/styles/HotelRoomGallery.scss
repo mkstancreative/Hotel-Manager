@@ -1,0 +1,40 @@
+@import "./resets";
+@import "./variables";
+
+
+.room-container{
+    text-align: center;
+    
+    h4{
+        padding-top: 3rem;
+    }
+    p{
+        padding-bottom: 1rem;
+    }
+}
+
+.room-gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.card{
+    margin: 1rem;
+}
+.room-details{
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+
+    button{
+        background-color: transparent;
+        border-style: none;
+        padding: 10px;
+
+        &:hover{
+            background-color: rgb(255, 136, 0);
+            color: white;
+        }
+    }
+}

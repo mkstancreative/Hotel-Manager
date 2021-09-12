@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form-container {
+  width: 1000px;
+}
+
+.form {
+  width: 90%;
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form .form-header {
+  width: 80%;
+  background: white;
+}
+
+.form .form-header h1 {
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bolder;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-inputs {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.form-inputs .form-label {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.form-inputs .form-input {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: red;
+}
+
+.form-input-btn {
+  padding: 10px;
+  margin: 12px;
+  border-style: none;
+  outline: none;
+  width: 50%;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#ff7300), to(#ff5f02));
+  background: linear-gradient(90deg, #ff7300 0%, #ff5f02 100%);
+}
+
+.Message {
+  font-weight: bolder;
+}
+
+.Message .next-page {
+  color: #ff5f02;
+}
+/*# sourceMappingURL=Signup.css.map */
