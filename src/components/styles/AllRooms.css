@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.all-rooms-container {
+  margin: 1rem 0rem;
+  position: relative;
+}
+
+.all-rooms-container .all-rooms-col {
+  position: relative;
+}
+
+.all-rooms-container .rooms-img {
+  width: 100%;
+  position: relative;
+}
+
+.all-rooms-container .room-details {
+  position: relative;
+  top: -4rem;
+  cursor: pointer;
+}
+
+.all-rooms-container .rooms-name-header {
+  background-color: #cfcfcf;
+  color: black;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 700px) {
+  .room-details {
+    position: relative;
+    left: 3rem;
+  }
+}
+/*# sourceMappingURL=AllRooms.css.map */

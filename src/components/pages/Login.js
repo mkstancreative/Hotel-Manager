@@ -6,7 +6,7 @@ import validate from '../Forms/ValidateInfo';
 
 const Login = ({submitForm}) => {
 
-    const {handleChange, values, handleSubmit, errors} = UseForms(submitForm,validate);
+    const {handleChange, handleSubmit, errors} = UseForms(submitForm,validate);
 
     return (
         <>

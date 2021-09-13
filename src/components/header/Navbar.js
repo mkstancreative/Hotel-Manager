@@ -6,11 +6,14 @@ import "../styles/Navbar.css";
 
 
 const Navbar = () => {
+
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
+
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
 
     const showButton = () => {
         if(window.innerWidth <= 960){
@@ -25,7 +28,6 @@ const Navbar = () => {
     }, [])
 
     window.addEventListener("resize", showButton);
-
     return (
         <>
           <nav className='navbar'>
@@ -54,11 +56,11 @@ const Navbar = () => {
                 </li>
                 <li className='nav-item'>
                   <Link
-                    to='/products'
+                    to='/rooms'
                     className='nav-links'
                     onClick={closeMobileMenu}
                   >
-                    Products
+                    Rooms
                   </Link>
                 </li>
                 <li className='nav-btn'>

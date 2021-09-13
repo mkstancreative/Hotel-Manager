@@ -1,5 +1,5 @@
  import React from 'react';
- import { Container, Form } from 'react-bootstrap'
+ import { Container, Col, Form } from 'react-bootstrap'
  import {Link } from "react-router-dom";
  import "../styles/Signup.css";
  import UseForms from '../Forms/UseForm';
@@ -11,6 +11,7 @@
      return (
          <>
              <Container className="form-container">
+                <Col md={12} p-0  >
                  <Form className="form" onSubmit={handleSubmit}>
                     <div className='form-header'>
                     <h1>Welcome to Hotel Master <br /> Create your account today by  filling 
@@ -63,6 +64,7 @@
                     <button type="submit" className="form-input-btn"> Signup </button>
                     <div className="Message"> Already Have an Account? Login <Link className='next-page' to="/login">Here</Link></div>   
                 </Form>
+                </Col>
              </Container>
          </>
      )

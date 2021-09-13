@@ -12,7 +12,7 @@ const Form = () => {
         <> 
 
         {!isSubmitted ? (<SignUp submitForm={submitForm} />) : <FormSuccess />  }
-        {/* <FormSuccess />   */}
+    
             
         </>
     )

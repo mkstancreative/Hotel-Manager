@@ -5,7 +5,7 @@ import Login from './components/pages/Login';
 import Home from './components/pages/Home';
 import Navbar from './components/header/Navbar';
 import Form from './components/Forms/Form';
-import FormSuccess from './components/Forms/FormSuccess';
+import AllRooms from './components/Rooms/AllRooms';
 
 
 
@@ -19,6 +19,7 @@ function App() {
           <Route exact path='/' component={ Home } /> 
           <Route path='/login' component={ Login } />
           <Route path='/sign-up' component={ Form } />
+          <Route path='/rooms' component={ AllRooms } />
 
         </Switch>   
         

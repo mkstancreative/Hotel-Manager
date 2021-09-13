@@ -57,10 +57,10 @@ const HotelRoomGallery = () => {
     }
 
 
-    // useEffect(() => {
+    useEffect(() => {
    
-    //     loadMore() 
-    // }, [])
+        loadMore(); 
+    }, [])
 
 
 

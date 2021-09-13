@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import react, {useState, useEffect} from 'react'
 
 const UseForms = (callback, validate) => {
     const [values, setValues] = useState({
