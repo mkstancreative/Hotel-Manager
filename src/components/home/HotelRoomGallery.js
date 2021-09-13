@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import HotelRoomGalleryData from './HotelRoomGalleryData';
 import { Container, Row } from 'react-bootstrap';
 import "../styles/HotelRoomGallery.css";
@@ -50,18 +50,6 @@ const roomGallery = [
 ]
 
 const HotelRoomGallery = () => {
-    const [nextRoom, setNextRoom] = useState(3);
-
-    const loadMore = () =>{
-        setNextRoom (nextRoom + 3)
-    }
-
-
-    useEffect(() => {
-   
-        loadMore(); 
-    }, [])
-
 
 
     return (
@@ -70,12 +58,10 @@ const HotelRoomGallery = () => {
                 <h4>HOTEL MASTER'S ROOMS</h4>
                 <p>View All Rooms</p>
                 <Row className='room-gallery'>
-                {roomGallery.slice(0, nextRoom).map((roomGallery, index) => {
+                {roomGallery.map((roomGallery, index) => {
                 return <HotelRoomGalleryData key={index} roomGallery={roomGallery} />
                 })}
-                {/* {nextRoom < roomGallery.length && (
-                    <button onClick={loadMore()}>Load More</button>
-                )} */}
+               
                 </Row>
             </Container> 
 

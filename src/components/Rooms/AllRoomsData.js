@@ -23,4 +23,4 @@ const AllRoomsData = (props) => {
     )
 }
 
-export default AllRoomsData
+export default AllRoomsData;
