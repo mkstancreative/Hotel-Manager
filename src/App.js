@@ -13,6 +13,7 @@ import AllRooms from './components/Rooms/AllRooms';
 function App() {
   return (
     <>
+
     <Router >
       <Navbar />
         <Switch>
@@ -21,11 +22,11 @@ function App() {
           <Route path='/sign-up' component={ Form } />
           <Route path='/rooms' component={ AllRooms } />
 
-        </Switch>   
-        
+        </Switch>    
     </Router>
 
     </>
   );
 }
+
 export default App;

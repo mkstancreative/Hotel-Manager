@@ -11,12 +11,13 @@ const CheckAvaliability = () => {
                     <form action="">
                             <Row className="check-avaliable-row p-0 m-0">
                                 <Col sm={2} className="check-input">
-                                <label htmlFor="">Check In</label>
-                                <input type="date" />
+                                <label className="check-label" htmlFor="">Check In</label>
+                                <input className="check-inp" type="date" />
                             </Col>
                             <Col sm={1} className="check-select">
-                                <label htmlFor="">Night</label>
-                                <select>
+                                <label className="check-label" htmlFor="">Night</label>
+                                <select className="check-options">
+                                    <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -24,12 +25,12 @@ const CheckAvaliability = () => {
                                 </select>
                             </Col>
                             <Col sm={2} className="check-input">
-                                <label htmlFor="">Check Out</label>
-                                <input type="date" />
+                                <label className="check-label" htmlFor="">Check Out</label>
+                                <input className="check-inp" type="date" />
                             </Col>
                             <Col sm={1} className="check-select">
-                                <label htmlFor="">Adults</label>
-                                <select>
+                                <label className="check-label" htmlFor="">Adults</label>
+                                <select className="check-options">
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -37,8 +38,8 @@ const CheckAvaliability = () => {
                                 </select>
                             </Col>
                             <Col sm={1} className="check-select">
-                                <label htmlFor="">Children</label>
-                                <select>
+                                <label className="check-label" htmlFor="">Children</label>
+                                <select className="check-options">
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>

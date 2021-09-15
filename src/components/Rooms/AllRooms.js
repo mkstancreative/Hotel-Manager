@@ -50,6 +50,47 @@ const rooms = [
                         Dignissimos dolorem temporibus necessitatibus consectetur laborum 
                         iusto modi quam inventore autem! Non alias explicabo`,
         roomBook : 'Book Now'                
+    },
+    {
+        id: "4",
+        roomType : room1,
+        roomAlt : "hotel rooms 1",
+        roomName : "Single Room",
+        roomDescrip: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dignissimos dolorem temporibus necessitatibus consectetur laborum 
+                        iusto modi quam inventore autem! Non alias explicabo`,
+        roomBook : 'Book Now',                
+    },
+    {
+        id: "5",
+        roomType : room3,
+        roomAlt : "hotel rooms 3",
+        roomName : "Luxury Room",
+        roomDescrip: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dignissimos dolorem temporibus necessitatibus consectetur laborum 
+                        iusto modi quam inventore autem! Non alias explicabo`,
+        roomBook : 'Book Now',
+
+    },
+        {
+        id: "6",
+        roomType : room4,
+        roomAlt : "hotel rooms 4",
+        roomName : "Double Room",
+        roomDescrip: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dignissimos dolorem temporibus necessitatibus consectetur laborum 
+                        iusto modi quam inventore autem! Non alias explicabo`,
+        roomBook : 'Book Now'                
+    },
+        {
+        id: "7",
+        roomType : room1,
+        roomAlt : "hotel rooms 1",
+        roomName : "Single Room",
+        roomDescrip: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dignissimos dolorem temporibus necessitatibus consectetur laborum 
+                        iusto modi quam inventore autem! Non alias explicabo`,
+        roomBook : 'Book Now',                
     }
 ]
 
