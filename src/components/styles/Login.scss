@@ -3,14 +3,68 @@
 @import "./mixins";
 
 
-.form-container{
-    border-radius: 10px;
-    position: relative;
-    
-}
-.signup-right{
-    position: relative;
+.login-left{
     margin: 1rem 0rem;
+    position: relative;
+
+    &::before{
+        position:absolute;
+        display:block;
+        width: 95.8%;
+        height:100%;
+        background:rgba(0, 0, 0, 0.5);
+        content: ' ' ;
+        z-index: 1;
+    }
+    .form-header{
+        padding: 5rem;
+        position: absolute;
+        top: 2rem;
+        z-index: 99;
+
+        &:hover{
+            cursor: pointer;
+        }
+        h1{
+        font-family: $fontFamily;
+        font-weight: 100;
+        font-size: 3.5rem;
+        letter-spacing: 1rem;
+        font-weight: bolder;
+        line-height: 3rem;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        line-height: 3.5rem;
+
+            &:hover{
+                color: $textFancyColor; 
+            }
+        }
+
+        p{
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    }
+    
+    
+    #cover{
+        width: 100%;
+        height: 80vh;
+    }
+    img.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
+}
+
+.login-right{
+    position: relative;
+    margin: 5rem 0rem;
     .form{
         @include flexCenter(column);
         width: 90%;
@@ -73,70 +127,54 @@
 
 }
 
-.signup-left{
-    margin: 5rem 0rem;
-    position: relative;
-
-    &::before{
-        position:absolute;
-        display:block;
-        width: 95.8%;
-        height:100%;
-        background:rgba(0, 0, 0, 0.5);
-        content: ' ' ;
-        z-index: 1;
-    }
-    .form-header{
-        padding: 5rem;
-        position: absolute;
-        top: 2rem;
-        z-index: 99;
-
-        &:hover{
-            cursor: pointer;
-        }
-        h1{
-        font-family: $fontFamily;
-        font-weight: 100;
-        font-size: 3.5rem;
-        letter-spacing: 1rem;
-        font-weight: bolder;
-        line-height: 3rem;
-        text-transform: uppercase;
-        color: white;
-        text-align: center;
-        line-height: 3.5rem;
-
-            &:hover{
-                color: $textFancyColor; 
-            }
-        }
-
-        p{
-            text-align: center;
-            color: white;
-            font-weight: bolder;
-            font-size: 1.5rem;
-        }
-    }
-    
-    
-    #cover{
-        width: 100%;
-        height: 80vh;
-    }
-    img.sticky{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    }
-}
-
-
 
 
 @media screen and (max-width: 700px) {
-    .signup-right{
+    
+    .login-left{
+        margin: 0.1rem auto;
+        position: sticky;
+        padding: 0rem;
+    
+        &::before{
+            width: 100%;
+            margin: 0px auto;
+            
+        }
+        .form-header{
+            position: absolute;
+            top: 2rem;
+            z-index: 99;
+            padding: 1rem;
+            
+    
+            &:hover{
+                cursor: pointer;
+  
+            }
+            h1{
+            font-family: $fontFamily;
+            font-size: rem;
+            margin: 5rem auto 0rem auto;
+            letter-spacing: 0.1rem;
+            color: white;
+            text-align: center;
+    
+            &:hover{
+                color: $textFancyColor; 
+            }
+            }
+    
+            p{
+                text-align: center;
+                color: white;
+                font-weight: bolder;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .login-right{
         padding: 0rem;
       
         .form{
@@ -194,52 +232,6 @@
         
             .next-page{
                 color: rgb(255, 95, 2) ;
-            }
-        }
-    }
-
-
-    .signup-left{
-        margin: 0.1rem auto;
-        position: sticky;
-        padding: 0rem;
-    
-        &::before{
-            width: 100%;
-            margin: 0px auto;
-            
-        }
-        .form-header{
-            position: absolute;
-            top: 2rem;
-            
-            z-index: 99;
-            padding: 1rem;
-            
-    
-            &:hover{
-                cursor: pointer;
-  
-            }
-            h1{
-            font-family: $fontFamily;
-            font-size: rem;
-            margin: 5rem auto 0rem auto;
-            letter-spacing: 0.1rem;
-            color: white;
-            text-align: center;
-  
-    
-                &:hover{
-                    color: $textFancyColor; 
-                }
-            }
-    
-            p{
-                text-align: center;
-                color: white;
-                font-weight: bolder;
-                font-size: 1rem;
             }
         }
     }

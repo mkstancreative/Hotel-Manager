@@ -10,7 +10,7 @@ const CheckAvaliability = () => {
                     <Col sm={12}>
                     <form action="">
                             <Row className="check-avaliable-row p-0 m-0">
-                                <Col sm={2} className="check-input">
+                            <Col sm={2} className="check-input">
                                 <label className="check-label" htmlFor="">Check In</label>
                                 <input className="check-inp" type="date" />
                             </Col>
@@ -49,7 +49,6 @@ const CheckAvaliability = () => {
                             <Col sm={2} className="check-submit">
                                 <button type='submit' className="submit-now" > Check Avaliability</button>
                             </Col>
-                            
                             </Row>
                     </form>                   
                     </Col>

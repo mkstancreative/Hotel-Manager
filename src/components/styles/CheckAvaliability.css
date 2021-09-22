@@ -74,7 +74,7 @@
   margin: 12px;
   border-style: none;
   outline: none;
-  width: 100%;
+  width: 200px;
   color: white;
   background: -webkit-gradient(linear, left top, right top, from(#ff7300), to(#ff5f02));
   background: linear-gradient(90deg, #ff7300 0%, #ff5f02 100%);

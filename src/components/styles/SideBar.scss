@@ -1,0 +1,111 @@
+@import "./resets";
+@import "./variables";
+@import "./mixins";
+
+
+.side-bar-left{
+    background-color: black;
+}
+
+.logo{
+    background-color: cadetblue;
+}
+.profile-pics-div{
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-left: auto;
+    background-color: black;
+    color: $accentColor;
+
+    .profile-pics{
+        width: 50px;
+        height: 50px;
+        border-radius: 50rem;
+       
+    }
+    .profile-name{
+        margin-left: 20px;
+        
+        h6{
+            font-size: 1.3rem;
+        }
+
+        p{
+            font-size: 1rem;
+
+            #online{
+                font-size: 2rem;
+                color:green ;
+            }
+        }
+    }
+}
+.menu-items-container{
+
+    #menu-icons{
+      margin-right: 1rem;
+        font-size: 1.5rem;
+
+    }
+}
+ .menu-items{
+    list-style: none;
+    color: $accentColor;
+    font-size: 1rem;
+    font-weight: bolder;
+    position: relative;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    
+
+    &:hover{
+        background:$BtnColor;
+        color: white;
+        cursor: pointer;
+        
+
+    }
+
+    .menu-items-links{
+        text-decoration: none;
+        color: $accentColor;
+        font-size: 1rem;
+        margin-left: 1.5rem;
+        
+    }
+
+ }
+ .menu-items-inline{
+    margin-left: 1rem;
+    list-style: none;
+    color: $accentColor;
+    font-size: 1rem;
+    font-weight: bolder;
+    position: relative;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    
+    &:hover{
+        background-color: black;
+    }
+    .items-inline-links{
+        text-decoration: none;
+        color: $accentColor;
+        font-size: 1rem;
+        margin-left: 1.5rem;
+
+    }
+ }
+ .items-inline{
+     position: absolute;
+     top: -100rem;
+     text-decoration: none;
+    color: $accentColor;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+    background-color: black;
+ }

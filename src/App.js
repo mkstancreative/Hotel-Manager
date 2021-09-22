@@ -1,11 +1,12 @@
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css"; 
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Login from './components/pages/Login';
 import Home from './components/pages/Home';
 import Navbar from './components/header/Navbar';
 import Form from './components/Forms/Form';
 import AllRooms from './components/Rooms/AllRooms';
+import SideBar from './components/Dashboard/SideBar';
 
 
 
@@ -21,7 +22,7 @@ function App() {
           <Route path='/login' component={ Login } />
           <Route path='/sign-up' component={ Form } />
           <Route path='/rooms' component={ AllRooms } />
-
+          <Route path='/services' component={ SideBar } />
         </Switch>    
     </Router>
 

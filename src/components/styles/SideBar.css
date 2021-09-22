@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.side-bar-left {
+  background-color: black;
+}
+
+.logo {
+  background-color: cadetblue;
+}
+
+.profile-pics-div {
+  padding-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 30px;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+}
+
+.profile-pics-div .profile-pics {
+  width: 50px;
+  height: 50px;
+  border-radius: 50rem;
+}
+
+.profile-pics-div .profile-name {
+  margin-left: 20px;
+}
+
+.profile-pics-div .profile-name h6 {
+  font-size: 1.3rem;
+}
+
+.profile-pics-div .profile-name p {
+  font-size: 1rem;
+}
+
+.profile-pics-div .profile-name p #online {
+  font-size: 2rem;
+  color: green;
+}
+
+.menu-items-container #menu-icons {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.menu-items {
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+  position: relative;
+  padding: 0.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu-items:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#ff7300), to(#ff5f02));
+  background: linear-gradient(90deg, #ff7300 0%, #ff5f02 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.menu-items .menu-items-links {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+
+.menu-items-inline {
+  margin-left: 1rem;
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+  position: relative;
+  padding: 0.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu-items-inline:hover {
+  background-color: black;
+}
+
+.menu-items-inline .items-inline-links {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+
+.items-inline {
+  position: absolute;
+  top: -100rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  background-color: black;
+}
+/*# sourceMappingURL=SideBar.css.map */

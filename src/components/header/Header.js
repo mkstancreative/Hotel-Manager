@@ -9,6 +9,7 @@ const Header = () => {
     return (
         <>
         <Container className="p-0 slide header" fluid >
+            
                 <Carousel fade>
                     <Carousel.Item className='carousel__item'>
                         <img className="images" src={room1} alt='' />
