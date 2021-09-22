@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Hotel-Manager/static/css/main.0f5394c6.chunk.css",
-    "main.js": "/Hotel-Manager/static/js/main.62de19c7.chunk.js",
-    "main.js.map": "/Hotel-Manager/static/js/main.62de19c7.chunk.js.map",
+    "main.css": "/Hotel-Manager/static/css/main.8ea811d1.chunk.css",
+    "main.js": "/Hotel-Manager/static/js/main.4af371b4.chunk.js",
+    "main.js.map": "/Hotel-Manager/static/js/main.4af371b4.chunk.js.map",
     "runtime-main.js": "/Hotel-Manager/static/js/runtime-main.7fc96cbf.js",
     "runtime-main.js.map": "/Hotel-Manager/static/js/runtime-main.7fc96cbf.js.map",
     "static/css/2.27dd871e.chunk.css": "/Hotel-Manager/static/css/2.27dd871e.chunk.css",
-    "static/js/2.247a39a4.chunk.js": "/Hotel-Manager/static/js/2.247a39a4.chunk.js",
-    "static/js/2.247a39a4.chunk.js.map": "/Hotel-Manager/static/js/2.247a39a4.chunk.js.map",
+    "static/js/2.63cda71f.chunk.js": "/Hotel-Manager/static/js/2.63cda71f.chunk.js",
+    "static/js/2.63cda71f.chunk.js.map": "/Hotel-Manager/static/js/2.63cda71f.chunk.js.map",
     "index.html": "/Hotel-Manager/index.html",
     "static/css/2.27dd871e.chunk.css.map": "/Hotel-Manager/static/css/2.27dd871e.chunk.css.map",
-    "static/css/main.0f5394c6.chunk.css.map": "/Hotel-Manager/static/css/main.0f5394c6.chunk.css.map",
-    "static/js/2.247a39a4.chunk.js.LICENSE.txt": "/Hotel-Manager/static/js/2.247a39a4.chunk.js.LICENSE.txt",
+    "static/css/main.8ea811d1.chunk.css.map": "/Hotel-Manager/static/css/main.8ea811d1.chunk.css.map",
+    "static/js/2.63cda71f.chunk.js.LICENSE.txt": "/Hotel-Manager/static/js/2.63cda71f.chunk.js.LICENSE.txt",
     "static/media/room .e96dd468.jpg": "/Hotel-Manager/static/media/room .e96dd468.jpg",
     "static/media/room 1.eafe2b92.jpg": "/Hotel-Manager/static/media/room 1.eafe2b92.jpg",
     "static/media/room 2.85e72873.jpg": "/Hotel-Manager/static/media/room 2.85e72873.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.7fc96cbf.js",
     "static/css/2.27dd871e.chunk.css",
-    "static/js/2.247a39a4.chunk.js",
-    "static/css/main.0f5394c6.chunk.css",
-    "static/js/main.62de19c7.chunk.js"
+    "static/js/2.63cda71f.chunk.js",
+    "static/css/main.8ea811d1.chunk.css",
+    "static/js/main.4af371b4.chunk.js"
   ]
 }
